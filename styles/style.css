@@ -1,0 +1,149 @@
+:root {
+    --azul-claro: #B8EFFF;
+    --azul-medio: #6B8FAF;
+    --azul-escuro: #2E4A66;
+    --marrom: #8A4A32;
+    --branco: #FFFFFF;
+}
+
+body {
+    font-family: "Press Start 2P", sans-serif;
+    text-align: center;
+    margin: 0;
+    background-color: var(--azul-escuro);
+}
+
+.cabecalho__container {
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    gap: 20px;
+}
+
+.cabecalho__container {
+    border: 4px solid var(--branco);
+    background-color: var(--azul-medio);
+    border-radius: 10px;
+    margin-left: 40vh;
+    margin-right: 40vh;
+    margin-top: 5px;
+}
+
+.cabecalho__container img {
+    width: 50px;
+    height: auto;
+}
+
+.main__container {
+    background-color: var(--azul-escuro);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+    gap: 20px;
+}
+
+.slogam {
+    color: var(--branco);
+}
+
+.titulo {
+    color: var(--branco);
+    font-size: larger;
+    letter-spacing: 3px;
+}
+
+.products__container {
+    background-color: var(--azul-medio);
+    border-radius: 6px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    justify-items: center;
+    padding: 20px;
+}
+
+.produto {
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    width: 140px;
+    height: 130px;
+}
+
+.produto:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.formulario {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    padding: 10px;
+
+}
+
+.formulario__titulo {
+    font-size: larger;
+    color: var(--branco);
+    text-align: center;
+}
+
+.formulario__input {
+    background-color: var(--branco);
+    color: var(--azul-escuro);
+    border: 2px solid var(--azul-claro);
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    outline: none;
+}
+
+.botao {
+    width: 120px;
+    height: 40px;
+    border: 2px solid var(--azul-claro);
+    border-radius: 10px;
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.botao:hover {
+    background-color: var(--azul-medio);
+    color: var(--branco);
+    box-shadow: 0 0 5px var(--azul-claro);
+}
+
+.rodape {
+    padding: 5px 10px;
+    color: var(--azul-claro);
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    /* Define uma altura menor */
+
+
+}

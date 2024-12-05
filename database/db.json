@@ -1,0 +1,12 @@
+{
+  "products": [
+    { "id": 1, "name": "Joja-cola", "price": 75, "image": "imagens/Joja_Cola.png" },
+    { "id": 2, "name": "Arroz", "price": 250, "image": "imagens/arroz.png" },
+    { "id": 3, "name": "Açúcar", "price": 125, "image": "imagens/acucar.png" },
+    { "id": 4, "name": "Vinagre", "price": 200, "image": "imagens/vinagre.png" },
+    { "id": 5, "name": "Óleo", "price": 200, "image": "imagens/oleo.png" },
+    { "id": 6, "name": "Televisão", "price": 500, "image": "imagens/TV.png" },
+    { "id": 7, "name": "Mochila", "price": 250, "image": "imagens/Mochila.png" },
+    { "id": 8, "name": "Video Game", "price": 600, "image": "imagens/video game.png" }
+  ]
+}
