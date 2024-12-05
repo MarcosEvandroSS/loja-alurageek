@@ -23,20 +23,6 @@ Este projeto simula um catálogo de produtos dinâmico para o **Mercado Joja**, 
 - `services/product-services.js`: Serviço para comunicação com a API.
 - `db.json`: Base de dados simulada do JSON Server.
 
-## 🏃 Como Rodar o Projeto
-
-1. Certifique-se de ter o Node.js instalado em sua máquina.
-2. Instale o JSON Server globalmente (caso ainda não tenha):
-   ```bash
-   npm install -g json-server
-   ```
-3. Clone este repositório e navegue até a pasta do projeto.
-4. Inicie o JSON Server:
-   ```bash
-   json-server --watch db.json --port 3001
-   ```
-5. Abra o arquivo `index.html` em seu navegador para visualizar o projeto.
-
 ## 👨‍💻 Desenvolvido por
 
 **Marcos Evandro**
